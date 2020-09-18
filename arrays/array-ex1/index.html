@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arrays</title>
+  </head>
+  <body>
+
+    <script>
+       var array = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+       var removeFruit = array.shift();
+       console.log(removeFruit);
+
+       var sortFruit = array.sort();
+       console.log(sortFruit);
+
+       var addFruit = array.push("Kiwi");
+       console.log(addFruit);
+
+       var removeFruit = array.splice(0,1);
+       console.log(removeFruit);
+
+       var reverseSortFruit = array.reverse();
+       console.log(reverseSortFruit);
+
+      var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+      var getOranges = array2[1][1][0];
+      console.log(getOranges);
+    </script>
+  </body>
+</html>
